@@ -1,6 +1,5 @@
 const deletarTarefa = (atualiza, id) => { 
 
-  
     const index = id
     const tarefaCadastradas = JSON.parse(localStorage.getItem('tarefas'))
 
